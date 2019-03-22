@@ -1,5 +1,5 @@
 # athenajdbc
-Spring Boot 2 Project with Athena JDBC access using the JDBC Template. It uses the latest Athena JDBC Driver (for Java 8). 
+Spring Boot 2 Project with Athena JDBC access using the JDBC Template. It uses the latest Athena JDBC Driver (for Java 8): AthenaJDBC42. 
 
 ## Configuration
 
