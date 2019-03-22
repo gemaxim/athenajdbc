@@ -41,7 +41,7 @@ public class Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... strings) {
-		List<Map<String, Object>> list = this.jdbcTemplate.queryForList("SELECT * FROM \"inventory-analytics-db\".\"onlineshops\" limit 10");
+		List<Map<String, Object>> list = this.jdbcTemplate.queryForList("SELECT STATEMENT");
 		list.forEach(x -> LOG.info(x.toString()));
 		System.exit(0);
 	}
