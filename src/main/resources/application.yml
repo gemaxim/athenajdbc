@@ -1,6 +1,6 @@
 spring:
     datasource:
         driver-class-name: com.simba.athena.jdbc.Driver
-        url: jdbc:awsathena://AwsRegion=[REGION]
+        url: jdbc:awsathena://AwsRegion=us-east-1
 logging:
     file: app.log
