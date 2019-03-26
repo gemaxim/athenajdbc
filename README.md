@@ -9,11 +9,8 @@ spring:
     datasource:       
         url: jdbc:awsathena://AwsRegion=[REGION] 
 
-- Edit Application.java and set the S3 Bucket where your query results should be saved
+- Edit AthenaJdbcConfig.java and set the S3 Bucket where your query results should be saved
 
-properties.put("s3_staging_dir", "S3 BUCKET WHERE THE RESULTS WILL BE SAVED"); // Line 33
-
-and change the SQL statement:
-this.jdbcTemplate.queryForList("SELECT STATEMENT"); // Line 44
+properties.put("s3_staging_dir", "S3 BUCKET WHERE THE RESULTS WILL BE SAVED"); // Line 19
 
 The AWS credentials are supposed to be configured on your system.
