@@ -21,9 +21,9 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>Athena</groupId>
-			<artifactId>AthenaJDBC41</artifactId>
-			<version>1.0.1-atlassian-hosted</version>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-athena</artifactId>
+			<version>1.11.791</version>
 		</dependency>
 
 	</dependencies>
