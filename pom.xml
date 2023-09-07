@@ -12,7 +12,7 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-redshift</artifactId>
-        <version>1.12.32</version>
+        <version>1.12.530</version>
         <scope>runtime</scope>
       </dependency>
       <dependency>
